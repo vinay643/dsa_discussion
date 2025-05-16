@@ -2,8 +2,10 @@ package dsa_discussion.numberSystem;
 
 public class Lecture02 {
     public static void main(String[] args) {
-        int a=10;
-        System.out.println(Integer.toBinaryString(a));
+        int a=(-8>>2);
+        System.out.println(Integer.toBinaryString(a)+"---->"+a);
+
+
         //1010
         //1110
         // 1010
@@ -13,13 +15,13 @@ public class Lecture02 {
 
         //31 0s 1
 
-      int mask=(1<<2);
+     // int mask=(1<<2);
 
        // System.out.println(Integer.toBinaryString(a|mask));
 
       // onBit();
       // checkBit();
-        toggleBit();
+       // toggleBit();
 
 
 
